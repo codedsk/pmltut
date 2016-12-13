@@ -1,0 +1,23 @@
+<GDAL_WMS>
+  <Service name="WMS">
+    <Version>1.1.1</Version>
+    <ServerUrl>http://geoserver.rcac.purdue.edu:8081/geoserver/geoshare/wms?service=WMS</ServerUrl>
+    <Layers>geoshare%3Astjoewater_boundary_1004</Layers>
+    <SRS>EPSG:26916</SRS>
+    <ImageFormat>image/png</ImageFormat>
+    <Transparent>TRUE</Transparent>
+    <BBoxOrder>xyXY</BBoxOrder>
+  </Service>
+  <DataWindow>
+    <UpperLeftX>640322.400072947</UpperLeftX>
+    <UpperLeftY>4644560.66175594</UpperLeftY>
+    <LowerRightX>715502.488590964</LowerRightX>
+    <LowerRightY>4559465.69706869</LowerRightY>
+    <SizeX>947912704</SizeX>
+    <SizeY>1073741824</SizeY>
+  </DataWindow>
+  <BandsCount>3</BandsCount>
+  <BlockSizeX>1024</BlockSizeX>
+  <BlockSizeY>1024</BlockSizeY>
+  <OverviewCount>20</OverviewCount>
+</GDAL_WMS>

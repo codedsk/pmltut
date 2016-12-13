@@ -1,0 +1,47 @@
+<GDAL_WMS>
+    <Service name="WMS">
+        <Version>1.1.1</Version>
+        <ServerUrl>http://geoserver.rcac.purdue.edu:8081/geoserver/gabbs/wms?</ServerUrl>
+        <SRS>EPSG:4326</SRS>
+        <ImageFormat>image/png</ImageFormat>
+        <Transparent>FALSE</Transparent>
+        <Layers>gabbs:ne_10m_admin_0_countries</Layers>
+        <TiledGroupName></TiledGroupName>
+        <Styles></Styles>
+        <BBoxOrder>xyXY</BBoxOrder>
+    </Service>
+    <DataWindow>
+        <UpperLeftX>-179.9999999999999</UpperLeftX>
+        <UpperLeftY>83.63410065300012</UpperLeftY>
+        <LowerRightX>180.0</LowerRightX>
+        <LowerRightY>-90.0</LowerRightY>
+        <SizeX>2666666</SizeX>
+        <SizeY>1333333</SizeY>
+        <TileX>0</TileX>
+        <TileY>0</TileY>
+        <TileLevel>0</TileLevel>
+        <TileCountX>0</TileCountX>
+        <TileCountY>0</TileCountY>
+        <YOrigin>top</YOrigin>
+    </DataWindow>
+    <Projection>EPSG:4326</Projection>
+    <IdentificationTolerance>2</IdentificationTolerance>
+    <BandsCount>3</BandsCount>
+    <DataType>Byte</DataType>
+    <BlockSizeX>1024</BlockSizeX>
+    <BlockSizeY>1024</BlockSizeY>
+    <OverviewCount>10</OverviewCount>
+    <Cache/>
+    <MaxConnections>2</MaxConnections>
+    <Timeout>300</Timeout>
+    <OfflineMode>false</OfflineMode>
+    <AdviseRead>false</AdviseRead>
+    <VerifyAdviseRead>true</VerifyAdviseRead>
+    <ClampRequests>true</ClampRequests>
+    <UserAgent>GDAL WMS driver (http://www.gdal.org/frmt_wms.html)</UserAgent>
+    <UserPwd></UserPwd>
+    <UnsafeSSL>false</UnsafeSSL>
+    <Referer>http://example.foo/</Referer>
+    <ZeroBlockHttpCodes>204,404</ZeroBlockHttpCodes>
+    <ZeroBlockOnServerException>false</ZeroBlockOnServerException>
+</GDAL_WMS>
